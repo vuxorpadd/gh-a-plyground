@@ -9,7 +9,7 @@ jobs:
           echo "Hello"
           echo "there!"
       - name: Say next
-        run: General Kenobi!
+        run: echo "General Kenobi!"
       - name: Say bye
-        run: Bye!
+        run: echo "Bye!"
    
