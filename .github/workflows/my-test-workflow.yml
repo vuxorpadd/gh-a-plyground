@@ -1,0 +1,15 @@
+name: My test workflow
+on: workflow_dispatch
+jobs: 
+  job-one:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Say hello
+        run: | 
+          echo "Hello"
+          echo "there!"
+      - name: Say next
+        run: General Kenobi!
+      - name: Say bye
+        run: Bye!
+   
